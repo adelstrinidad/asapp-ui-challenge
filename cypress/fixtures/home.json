@@ -1,0 +1,8 @@
+{
+    "tabList":"[role=\"tablist\"]",
+    "muiTabWrapper":".MuiTab-wrapper",
+    "addToCartButton":"[data-test-name=\"add-to-cart-button\"]",
+    "listBox": "[aria-haspopup=\"listbox\"]",
+    "qtyListBox":"[role=\"listbox\"]",
+    "confirmMessage":"#snackbar-fab-message-id"
+}

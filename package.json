@@ -1,0 +1,16 @@
+{
+  "name": "assap-ui",
+  "version": "1.0.0",
+  "description": "UI test automation repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "cy:open": "cypress open"
+  },
+  "author": "ASAPP QA",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.2.1",
+    "cypress-mochawesome-reporter": "^2.3.0"
+  }
+}

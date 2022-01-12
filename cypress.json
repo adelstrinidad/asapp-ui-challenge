@@ -1,0 +1,8 @@
+{
+    "baseUrl": "http://localhost:3000/",
+    "env": {
+        "backendBaseUrl": "http://localhost:5000/",
+        "testUserPassword": "pa$$word"
+    },
+    "reporter": "cypress-mochawesome-reporter"
+}

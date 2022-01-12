@@ -1,0 +1,5 @@
+{
+    "cartMessage":".MuiButton-label",
+    "tableRow":".cart-table-row",
+    "checkoutDialogDone": ".MuiDialogTitle-root > .MuiTypography-root"
+}
