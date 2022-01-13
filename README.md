@@ -1,4 +1,4 @@
-# testing-workshop-cypress
+# ASSAP UI automation challenge
 ![cypress version](https://img.shields.io/badge/cypress-9.2.1-brightgreen)
 
 
