@@ -1,4 +1,5 @@
 /// <reference types="cypress" />
+import LoginPage from '../support/pageObjects/login-po';
 
 
 describe('Checkout end to end tests', () => {
@@ -23,6 +24,13 @@ describe('Checkout end to end tests', () => {
     cy.visit('/')
     cy.intercept('GET', `${Cypress.env('backendBaseUrl')}/${username}/products`).as('getProducts')
     cy.login(username, password)
+
+    //Example using PO
+
+    // LoginPage.userName.type(username)
+    // LoginPage.password.type(password)
+    // LoginPage.loginButton.click()
+
     // wait for page loaded
     cy.wait('@getProducts')
   })

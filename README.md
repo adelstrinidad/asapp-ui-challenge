@@ -19,7 +19,7 @@ npm install
 
 ```bash
 # open Cypress GUI
-npm run cypress:open
+npm run cy:open
 ```
 
 ### Running from the CLI
